@@ -1,28 +1,177 @@
 body{
-    background: #d1d5db;
+  margin:0px;
+  padding:0px;
+  font-family:arial;
 }
 
-/*Posición estatica de la barra*/
-.form{
-    position: sticky;
+/*ajuste navbar general*/
+.menu {
+  max-width:100%;
+  display:flex;
+  padding: 5px;
+  align-items:center;
+  font-weight:500;
 }
 
-/*Posición Search Bar */
-.form .fa-search{
-    position: absolute;
-    top:20px;
-    left: 20px;
-    color: #9ca3af;
+/*ajustar botones*/
+.menu .logo{
+  width:46px;
+  padding:11px;
+  cursor:pointer;
+  border-radius:50%;
+  margin-right: -15px;
 }
 
-/*Para modificar Search Bar */
-.form-input{
-    height: 55px;
-    text-indent: 5px;
-    border-radius: 10px;
+.menu .logo:hover{
+  background:#eeeeee;
 }
 
-.form-input:focus{
-    box-shadow: none;
-    border:none;
+.btn-inicio{
+  background:#000000;
+  padding:4px 10px;
+  cursor:pointer;
+  border-radius:40px;
+  text-decoration: none;
+}
+
+.btn-hoy{
+  padding:4px 7px;
+  cursor:pointer;
+  border-radius:40px;
+  text-decoration: none;
+  margin-left: 0px;
+}
+
+/*ajustes de searchbar*/
+.menu .search-bar{
+  width:100%;
+  margin:0px 5px;
+  padding:12px 35px;
+  border-radius:40px;
+  outline:none;
+  position:relative;
+  background-color:#efefef;
+  font-size:15px;
+  background-image: url(/Pinterest-Clone-Practice/img/lupa_icon.png);
+  background-size:22px;
+  background-repeat:no-repeat;
+  background-position:center left;
+  background-position:10px;
+  color:gray;
+  border:4px solid transparent;
+}
+
+.menu .search-bar:hover{
+  background-color:#3333;
+}
+
+.menu .search-bar:focus{
+  border:4px solid #7bb5f0;
+  padding:12px 20px;
+  background-image:none;
+}
+
+/*ajustes boton campana, mensaje, perfil*/
+.icon-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position:relative;
+}
+
+.icon-container .icon{
+  width:50px;
+  border-radius:50%;
+  cursor:pointer;
+  padding:10px;
+}
+
+.icon-container .icon:hover{
+  background-color:#eeeeee;
+}
+
+.icon-container .stylebtn {
+  width: 30px;
+  height: 30px;
+  border-radius:50%;
+  padding:0px;
+  border-style: none;
+}
+
+.icon-container .stylebtn:hover{
+  background-color:#eeeeee;
+}
+
+/*ajustes contenido ultimo dropdown*/
+.texto-separador {
+  font-size: 12px;
+  font-weight:400;
+	color: #111111;
+  margin-left: 10px;
+}
+
+.card-user {
+	display: flex;
+	flex-direction: row;
+  padding: 5px;
+	align-items: center;
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card-user:hover{
+  background-color:#eeeeee;
+}
+
+.card-userImage {
+	width: 60px;
+	height: 63px;
+	border-radius:50%;
+}
+
+.card-userImage img {
+	width: 100%;
+	height: 100%;
+}
+
+.card-userInfo {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+}
+
+.card-userInfo span:nth-child(1) {
+	font-size: 16px;
+  font-weight:600;
+	color: #111111;
+}
+
+.card-userInfo span:nth-child(2) {
+	color: #5F5F5F;
+	font-size: 14px;
+  font-weight:400;
+	margin-top: 2px;
+}
+
+.card-userInfo span:nth-child(3) {
+	color: #5F5F5F;
+	font-size: 14px;
+  font-weight:400;
+}
+
+.bt-lista {
+  display: flex;
+  font-size: 16px;
+  color: #111111;
+  font-weight: 500;
+  padding: 6px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.bt-lista:hover{
+  background-color:#eeeeee;
 }
