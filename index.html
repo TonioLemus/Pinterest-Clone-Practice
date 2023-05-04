@@ -38,7 +38,67 @@
           </ul>
 
           <!--Barra de busqueda-->
-            <input type="search" class="search-bar" placeholder="Search" aria-label="Search">
+          <div class="dropdown stylebar" style="width: 100%;">
+            <input type="search" class="search-bar dropdown" placeholder="Search" data-bs-toggle="dropdown" aria-label="Search">
+            <ul class="dropdown-menu">
+              <br>
+
+              <span class="texto-separador-sb">Búsquedas recientes</span>
+              <div class="container text-center" style="margin: 0px;">
+                <section id="tags-margin" class="row row-cols-auto">
+                  <a type="button" class="col search-tag">san valentin <img src="/Pinterest-Clone-Practice/img/close_icon.svg" width="25"></a>
+                  <a type="button" class="col search-tag">tienda en línea <img src="/Pinterest-Clone-Practice/img/close_icon.svg" width="25"></a>
+                  <a type="button" class="col search-tag">día de la madre <img src="/Pinterest-Clone-Practice/img/close_icon.svg" width="25"></a>
+                  <a type="button" class="col search-tag">fotos de girsoles <img src="/Pinterest-Clone-Practice/img/close_icon.svg" width="25"></a>
+                  <a type="button" class="col search-tag">One Piece <img src="/Pinterest-Clone-Practice/img/close_icon.svg" width="25"></a>
+                </section>
+              </div>
+              <br>
+
+              <span class="texto-separador-sb">Ideas para ti</span>
+              <div class="container text-center" style="margin: 0px;">
+                <section id="tags-col" class="row">
+                  <div id="img-col"><img class="col" src="/Pinterest-Clone-Practice/img/searchbar_imgs/1.jpg" width="200"><div class="txt-centrado">Fondo gótico</div></div>
+                  <div id="img-col"><img class="col" src="/Pinterest-Clone-Practice/img/searchbar_imgs/2.jpg" width="200"><div class="txt-centrado">Arte punk</div></div>
+                  <div id="img-col"><img class="col" src="/Pinterest-Clone-Practice/img/searchbar_imgs/3.jpg" width="200"><div class="txt-centrado">Dibujo manga</div></div>
+                  <div id="img-col"><img class="col" src="/Pinterest-Clone-Practice/img/searchbar_imgs/4.jpg" width="200"><div class="txt-centrado">Citas de libros</div></div>
+                </section>
+                <section id="tags-col" class="row row-cols-4">
+                  <div id="img-col"><img class="col" src="/Pinterest-Clone-Practice/img/searchbar_imgs/5.jpg" width="200"><div class="txt-centrado">Feliz cumpleaños</div></div>
+                  <div id="img-col"><img class="col" src="/Pinterest-Clone-Practice/img/searchbar_imgs/6.jpg" width="200"><div class="txt-centrado">Frases sentimentales</div></div>
+                  <div id="img-col"><img class="col" src="/Pinterest-Clone-Practice/img/searchbar_imgs/7.jpg" width="200"><div class="txt-centrado">Dibujos sencillos</div></div>
+                  <div id="img-col"><img class="col" src="/Pinterest-Clone-Practice/img/searchbar_imgs/8.jpg" width="200"><div class="txt-centrado">Mensajes de amor</div></div>
+                </section>
+              </div>
+              <br>
+
+              <span class="texto-separador-sb">Popular en Pinterest</span>
+              <div class="container text-center" style="margin: 0px;">
+                <section id="tags-col" class="row">
+                  <div id="img-col"><img class="col" src="/Pinterest-Clone-Practice/img/searchbar_imgs/9.jpg" width="200"><div class="txt-centrado">One Piece</div></div>
+                  <div id="img-col"><img class="col" src="/Pinterest-Clone-Practice/img/searchbar_imgs/10.jpg" width="200"><div class="txt-centrado">Minimalismo</div></div>
+                  <div id="img-col"><img class="col" src="/Pinterest-Clone-Practice/img/searchbar_imgs/11.jpg" width="200"><div class="txt-centrado">Chainsaw man</div></div>
+                  <div id="img-col"><img class="col" src="/Pinterest-Clone-Practice/img/searchbar_imgs/12.jpg" width="200"><div class="txt-centrado">Fotos de pareja</div></div>
+                </section>
+                <section id="tags-col" class="row row-cols-4">
+                  <div id="img-col"><img class="col" src="/Pinterest-Clone-Practice/img/searchbar_imgs/13.jpg" width="200"><div class="txt-centrado">Mario Bros</div></div>
+                  <div id="img-col"><img class="col" src="/Pinterest-Clone-Practice/img/searchbar_imgs/14.jpg" width="200"><div class="txt-centrado">Forest trees</div></div>
+                  <div id="img-col"><img class="col" src="/Pinterest-Clone-Practice/img/searchbar_imgs/15.jpg" width="200"><div class="txt-centrado">Capibaras</div></div>
+                  <div id="img-col"><img class="col" src="/Pinterest-Clone-Practice/img/searchbar_imgs/16.jpg" width="200"><div class="txt-centrado">Holidays</div></div>
+                </section>
+              </div>
+              <br>
+            </ul>
+          </div>
+
+
+
+
+
+
+
+
+
 
           <!--Iconos campana, mensaje, perfil, downwards-->
           <div class="icon-container">
@@ -89,11 +149,11 @@
   <!--Boton flotante inferior-->
   <div class="el-boton-pregunta">
     <button type="button" class="btn dropdown" data-bs-toggle="dropdown" aria-expanded="false">
-      <img draggable="false" src="/Pinterest-Clone-Practice/img/question_icon.svg" width="35">
+      <img draggable="false" src="/Pinterest-Clone-Practice/img/question_icon.svg" width="32">
     </button>
     <ul class="dropdown-menu">
-      <li><a id="btn-footer" class="dropdown-item" type="button">Visita el Centro de asistencia<img src="/Pinterest-Clone-Practice/img/arrow_icon.svg" width="23" style="margin-left: 75px;"></a></li>
-      <li><a id="btn-footer" class="dropdown-item" type="button">Crear widget<img src="/Pinterest-Clone-Practice/img/arrow_icon.svg" width="23" style="margin-left: 190px;"></a></li>
+      <li class="borderfix"><a id="btn-footer" class="dropdown-item" type="button">Visita el Centro de asistencia<img src="/Pinterest-Clone-Practice/img/arrow_icon.svg" width="23" style="margin-left: 85px;"></a></li>
+      <li class="borderfix"><a id="btn-footer" class="dropdown-item" type="button">Crear widget<img src="/Pinterest-Clone-Practice/img/arrow_icon.svg" width="23" style="margin-left: 200px;"></a></li>
       <li><hr class="dropdown-divider"></li>
       <li>
         <section class="footer-sec">

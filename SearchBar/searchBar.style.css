@@ -71,6 +71,96 @@ body{
   background-image:none;
 }
 
+/*ajustes contenido dropdown de searchar*/
+.stylebar .dropdown-menu.show {
+  width: 100%;
+  border-style: none;
+  border-radius: 15px;
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.1);
+}
+
+.texto-separador-sb {
+  font-size: 16px;
+  font-weight:400;
+	color: #333333;
+  margin-left: 20px;
+}
+
+.search-tag {
+  background-color: #E9E9E9;
+  border-radius: 30px;
+  margin: 5px;
+  padding: 6px;
+  text-decoration: none;
+  color: #111111;
+  font-weight: 400;
+}
+
+.search-tag:hover{
+  background-color: #DADADA;
+}
+
+#tags-margin {
+  margin-left: 5px;
+  margin-top: 6px;
+}
+
+#tags-margin img {
+  border-radius: 50%;
+  padding: 2px;
+}
+
+#tags-margin img:hover{
+  background-color: #CDCDCD;
+}
+
+/*ajustes seccion tarjetas */
+#img-col {
+  width: 200px;
+  height: 85px;
+  border-radius: 18px;
+  overflow: hidden;
+  margin: 5px;
+  background-color: #000000;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+#tags-col {
+  margin-left: 5px;
+  margin-top: 1px;
+}
+
+#tags-col img {
+  margin-left: -12px;
+  opacity: 0.65;
+}
+
+#tags-col img:hover {
+  background-color: #000000;
+  opacity: 0.35;
+}
+
+.txt-centrado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  width: 150px;
+  
+}
+
+
+
+
+
+
+
+
 /*ajustes boton campana, mensaje, perfil*/
 .icon-container{
   display:flex;
@@ -100,6 +190,12 @@ body{
 
 .icon-container .stylebtn:hover{
   background-color:#eeeeee;
+}
+
+.icon-container .dropdown-menu.show {
+  border-style: none;
+  border-radius: 17px;
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.10);
 }
 
 /*ajustes contenido ultimo dropdown*/
